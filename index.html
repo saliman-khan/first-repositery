@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+
+      <title>My Personal Dashboard</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+
+
+  <header>
+       <h1 id="hi">"Personal Dashboard"</h1>
+       <button onclick="changeName()">Change Your Name</button>
+  </header><br>
+
+  <!-- Navigation Bar  -->
+
+
+  <nav>
+       <a href="">Home</a>
+       <a href="">Contact Us</a>
+       <a href="">About Me</a>
+  </nav>
+
+  
+
+
+    <!-- Random Quote -->
+
+
+    <section class="card">
+            <h2>Random Quote</h2>
+            <p id="quotation">Click for a quotation</p>
+            <button onclick="newQuotation()">New quotation</button>
+    </section>
+
+    <!-- Calculator -->
+
+
+    <section class="card">
+      
+                <h2>Calculator</h2>
+                <input type="number" id="num1">
+                <input type="number" id="num2">
+                <button onclick="calculate('+')">+</button>
+                <button onclick="calculate('-')">-</button>
+                <button onclick="calculate('*')">*</button>
+                <button onclick="calculate('/')">/</button>
+                <p id="calcResult">Result of operation </p>
+    </section>
+
+    <!-- Number & String Playground -->
+
+
+    <section class="card">
+                <h2>Playground</h2>
+                <input type="number" id="showNum">
+                <button onclick="numberMethods()">Check Number</button>
+                <p id="numOutput"></p>
+
+                <input type="text" id="showText">
+                <button onclick="stringMethods()">Check String</button>
+                <p id="textOutput"></p>
+    </section>
+
+    <!-- Date & Time -->
+      
+                <section class="card">
+                  <h2>Date and Time</h2>
+                  <p id="dateTime"></p>
+                </section>
+
+    <!-- Color Switcher -->
+
+
+                <section class="card">
+                  <h2>Color Switcher</h2>
+                  <button onclick="changeBackground()">Change Background color</button>
+                </section>
+
+    <!-- Switch Case -->
+
+
+                  <section class="card">
+                    <h2>Day of the Week</h2>
+                    <p id="dayOutput"></p>
+                  </section>
+
+    <!-- Loops Practice -->
+
+
+            <section class="card">
+              <h2>Loops Practice (1-50)</h2>
+              <p><b>For Loop:</b> <div id="forLoop"></div></p>
+              <p><b>While Loop:</b> <div id="whileLoop"></div></p>
+              <p><b>Do While Loop:</b> <div id="doWhileLoop"></div></p>
+            </section>
+
+  </main>
+
+  <!-- Footer -->
+
+              
+              <footer>
+                <p> 2025 My personal Dashboard </p>
+              </footer>
+<script src="script.js"></script>
+  
+</body>
+</html>
