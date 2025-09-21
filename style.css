@@ -20,7 +20,7 @@ body {
           color: white;
           margin: 20px;
           font-size:large;
-          background-color: brown;
+          background-color:tomato
         }
 
   main {
@@ -28,6 +28,7 @@ body {
           grid-template-columns: repeat(auto-fit, minmax(595px, 595px));
           grid-gap: 20px;
           padding: 20px;
+          margin: 5px;
         }
 
   .card {
